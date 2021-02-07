@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UO - LA gourde connectée</title>
+  <link rel="stylesheet" href="/dist/index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <script src="index.js" defer></script>
+  <title>Uo - La gourde connectée à son époque</title>
 </head>
 <body>
-  <h1>UO - La gourde connectée</h1>
-  Wersh les freres
+  <header class="flex">
+    <div class="hero">
+      <div class="uo"><span class="letter-title-u">U</span><span class="letter-title-o">o</span></div>
+      <h1>La <b>gourde connectée</b>  à son époque</h1>
+      <a class="button pulse" href="#gourde">Je découvre</a>
+    </div>
+    <img class="gourde" src="assets/images/gourde.svg" alt="La gourde Uo">
+  </header>
+  <section id="gourde">
+    <img class="shapes" src="assets/images/shapes.svg" alt="">
+    <div class="card">
+      <h2>La gourde</h2>
+      <p>
+        Uo est la <b>nouvelle façon</b> de consommer l'eau que l'on chéri tant.
+        Il s'agit de la première <b>gourde connectée</b> permettant d'analyser <b>la qualité de l'eau</b>.
+        Ses capteurs permettent de mesurer la <b>température</b> , le <b>pH</b> et le <b>taux de minéraux</b>.
+        Grâce à son <b>application mobile</b>, Uo vous permet de visualiser la <b>composition de l'eau</b> ainsi que vos statistiques de consommation.
+      </p>
+      <p>
+        Ne doutez plus jamais de la <b>qualité de votre eau </b> et optez pour ce qu'il y'a de meilleur pour vous avec Uo.
+      </p>
+    </div>
+  </section>
+  <section id="timer">
+    <img src="assets/images/clock.svg" alt="">
+    <div id="remaining-time">60j 11h 32m 12s</div>
+    <p>Avant que <b>Uo</b> soit disponible</p>
+  </section>
+   <section id="newsteller">
+    <h2>Inscrivez vous à notre newsteller</h2>
+    <div class="flex">
+      <p class="form-text">Pour être informé de l’arrivé de Uo et tentez de <b>gagner une des 5 gourdes connectées</b> Uo offertes.</p>
+      <div class="form">
+        <div class="form-title">Email</div>
+        <input type="text">
+        <a class="button" href="/">S'inscrire</a>
+      </div>
+    </div>
+   </section>
+  <footer>
+    <p> © 2021 Uo. Tous droits réservés</p>
+  </footer>
 </body>
 </html>
